@@ -1,0 +1,98 @@
+h1{
+    /*Centralizando texto tags h1 */
+    text-align: center;
+}
+
+body{
+    /*Colocando cor de fundo do body (corpo da pg) */
+    background-color: aqua;
+}
+
+p{  
+    /*Alternando a cor do texto */
+    color: rgb(225, 0, 255);
+}
+
+img{
+    /*Ajustando o tamanho da imagem */
+   width: 200px;
+   height: 150px;
+}
+
+h2{
+    /*Alterando o tamanho da fonte */
+   background-color: blueviolet;
+   font-size: 20px; 
+}
+
+h3{
+  /*Colocando o texto na direita, ajustando o tamanho,
+  colocando a cor no texto e cor de fundo */
+   text-align: right; 
+   font-size: 18px;
+   color: chartreuse;
+   background-color: black;
+}
+
+  /*seletor de class */
+.vermelho{
+     color: red;
+}
+
+.verde{
+    color: rgb(0, 255, 0);
+}
+
+.amarelo{
+    color: yellow;
+}
+
+#p-vermelho{
+    color: red;
+}
+
+.font-courier-new {
+    font-family: 'Courier New', Courier, monospace;  
+
+}
+
+.sombreado{
+    /* Text-shadow colocando sombreado no texto
+    eixo x, eixo y, esfumaçado, cor */
+    text-shadow: 2px 2px 1px; color: chartreuse;
+}
+
+.sombreado2{
+    
+    text-shadow: 1px 1px 1px; color: darkkhaki;
+}
+
+.opacidade{
+    background-color: rgb(0, 255, 0);
+    opacity: 0.3;
+}
+
+.opacidade-rgba{
+    background-color: rgb(0, 128, 0);
+}
+
+.fundo-imagem{
+    height: 500px;
+    /* Fundo do elemento com imagem */
+    background-image: url(../img/Sung\ Jin\ Woo.jfif);
+    /* Repetição da imagem de fundo quando é menor 
+    que o elemento */
+    background-repeat: no-repeat;
+    /* Esta propriedades ''estica'' a imagem pra todo
+    espaço */
+    background-size: cover;
+}
+
+.Fundo-tela-dinamico{
+    height: 500px;
+    background: url(https://source.unsplash.com/1920x2400?hdr,sunset,ocean);
+    background-size: cover;
+}
+
+
+

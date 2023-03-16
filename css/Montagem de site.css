@@ -1,0 +1,40 @@
+
+.Titulo{
+     background-color: rgba(60, 65, 205, 0.3)
+     
+}
+
+.Imagem-casa{
+    height: 300px;
+    width: 500px;
+    background-image: url(../img/matriz-musicdot-antiga.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+.logotipo{
+    background-image: url(../img/logo.svg);
+}
+
+.Linha{
+    position: ;
+      border: none;
+      height: 4px;
+      background: black;
+}
+
+.Family{
+    height: 220px;
+    width: 300px;
+    background: url(../img/familia-tupfeln.jpg);
+    float: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.line{
+    border-bottom: 4px black solid;
+}
+
+

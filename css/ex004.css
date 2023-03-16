@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+h1 {
+   text-align: center;
+   background-color: green;
+   color: white;
+}
+.shadow {
+    text-shadow: 1px 1px 2px; 
+}
+h2{
+    
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+
+.font{
+    font-family: Rampart One;
+}
+
+
+.amarelo{
+          text-align: center;
+}
+
+.verde{
+    text-align: right;
+}
+
+.vermelho{
+    color: red;
+}
+
+.verde{
+    color: green;
+}
+
+.amarelo{
+    color: rgb(161, 161, 38);
+}
+
+
+
+
+

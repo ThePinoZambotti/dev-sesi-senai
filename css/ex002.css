@@ -1,0 +1,75 @@
+
+h1{
+    color: grey;
+}
+
+.blue {
+    padding: 50px;
+    background-color: blue;
+}
+
+.orange{
+    padding: 50px;
+    background-color: orange;
+}
+
+.green{
+    padding: 50px;
+    background-color: green;
+}
+
+.red{
+    padding: 50px;
+    background-color: red;
+}
+
+.purple{
+    padding: 50px;
+    background-color: purple;
+}
+
+#black{
+    padding: 50px;
+    background-color: black;
+}
+
+ /* */
+
+.blue:hover {
+    padding: 50px;
+    background-color: rgb(255, 0, 187);
+}
+
+.orange:hover{
+    padding: 50px;
+    background-color: rgb(0, 195, 255);
+}
+
+.green:hover{
+    padding: 50px;
+    background-color: rgb(128, 77, 0);
+}
+
+.red:hover{
+    padding: 50px;
+    background-color: rgb(0, 0, 0);
+}
+
+.purple:hover{
+    padding: 50px;
+    background-color: hsl(73, 100%, 25%);
+}
+
+#black:hover{
+    padding: 100px;
+    background-color: rgb(50, 100, 100);
+    transition: 10s;
+}
+
+h1:hover{
+    color: rgb(255, 0, 0);
+    padding: 40px;
+    transition: 10s;
+    font-size: 50px;
+}
+
