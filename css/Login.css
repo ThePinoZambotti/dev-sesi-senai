@@ -1,0 +1,35 @@
+body{
+    background: linear-gradient(black, rgb(0, 255, 0), rgb(208, 255, 0));
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 500px;
+}
+
+.login > img{
+    margin-bottom: 20px;
+    width: 100px;
+}
+
+.login{
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 10px 10px 10px blue;
+    border-radius: 15px;
+    text-align: center;
+}
+
+input{
+    margin-bottom: 20px;
+}
+
+.botao{
+    text-decoration: none;
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+

@@ -1,0 +1,101 @@
+/* FLEX 1 - ROW EM LINHA */
+
+.flex-1 {
+    background-color: gray;
+    /* Alterando o display da div para o tipo
+    flex para ficar mais facil estilizar as 
+    posições dos elementos filhos
+    - por padrão o alinhamento é em linha ROW */
+    display: flex;
+}
+
+/* FLEX 2- COLUMN EM COLUNA */
+.flex-coluna {
+    background-color: rgb(72, 207, 234);
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    /* O Flex Direction altera a disposição
+    dos elementos para o tipo coluna
+    colocando um embaixo do outro */
+    flex-direction: column;
+}
+
+/* FLEX 3 - WRAP Quebra de linha */
+.wrap {
+    background-color: gray;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    /* O Flex wrap ''quebra'' os
+    elementos em um nova linha 
+    qunado não cabem */
+    flex-wrap: wrap;
+}
+
+img {
+    width: 200px;
+    margin: 10px;
+}
+
+/* FLEX 4 - Centralizado */
+.centralizar-x {
+    background-color: gray;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    /* Centralizar horizontalmente */
+    justify-content: center;
+}
+
+.space-around {
+    background-color: gray;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    /* Alinhando os itens
+    com espaçamento */
+    justify-content: space-around;
+}
+
+.space-between {
+    background-color: gray;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    /* Alinhando os itens
+    com espaçamento */
+    justify-content: space-between;
+}
+
+.flex-end {
+    background-color: gray;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    /* Alinhando os itens
+    no final do div */
+    justify-content: flex-end;
+}
+
+.flex-start {
+    background-color: gray;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    /* Alinhando os itens
+    no começo do div */
+    justify-content: flex-start;
+}
+
+.centralizar-y {
+    background-color: gray;
+    margin-top: 30px;
+    padding: 20px;
+    display: flex;
+    height: 500px;
+    /* Alinhando os elementos 
+    ao centro verticalmente */
+    align-items: center;
+    justify-content: center;
+}

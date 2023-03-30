@@ -1,0 +1,47 @@
+.All{
+    border: 1px black solid;
+}
+
+.Baixo{
+    border-bottom: 2px red solid;
+}
+
+.Redondada{
+    border: 1px green solid;
+    border-radius: 10px;
+}
+
+.Esquerda{
+    border-left: 4px blue solid;
+    background-color: rgb(159, 164, 240);
+}
+
+.Pontilhado{
+    border-top: 1px purple solid;
+}
+
+.Misturadas{
+    border-top: 4px yellow solid;
+    border-left: 4px green double;
+    border-right: 4px blue dotted;
+    border-bottom: 4px red dashed;
+}
+
+.Foto{
+    background-image: url(../img/Sung\ Jin\ Woo.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+}
+
+.Squad{
+    padding: 40px;
+    background-color: purple;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px 0px 50px 0px;
+}
+
