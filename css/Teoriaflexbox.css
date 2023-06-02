@@ -1,3 +1,4 @@
+
 /* FLEX 1 - ROW EM LINHA */
 
 .flex-1 {
@@ -53,8 +54,6 @@ img {
     margin-top: 30px;
     padding: 20px;
     display: flex;
-    /* Alinhando os itens
-    com espaçamento */
     justify-content: space-around;
 }
 
